@@ -9,6 +9,7 @@
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
         integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Task List</title>
 </head>
@@ -23,23 +24,21 @@
                         <div class="row">
                             <form id="task-form">
                                 <div class="input-field col s12">
-                                    <input type="text" name="task" 
-                                    id="task">
+                                    <input type="text" name="task" id="task">
                                     <label for="task">New Task</label>
                                 </div>
-                                <input type="submit" value="Add Task"
-                                 class="btn">
+                                <input type="submit" value="Add Task" class="btn">
                             </form>
                         </div>
                     </div>
                     <div class="card-action">
                         <h5 id="task-title">Tasks</h5>
                         <div class="input-field col s12">
-                            <input type="text" name="filter"
-                             id="filter">
+                            <input type="text" name="filter" id="filter">
                             <label for="filter-tasks">Filter Tasks</label>
                         </div>
-                        <ul class="collection"></ul>
+                        <ul class="collection">
+                        </ul>
                         <a href="#" class="clear-tasks btn black">
                             Clear Tasks</a>
                     </div>
